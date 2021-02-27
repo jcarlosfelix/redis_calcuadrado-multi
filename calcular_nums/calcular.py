@@ -35,6 +35,7 @@ while True:
         break
     i = int(i)
     x = i*i
-    r.rpush('queue_trabajo', x)
-    print('leyendo', i, ' ... cuadrado:', x)    
+
+    print('leyendo', i, ' ... cuadrado:', x)
+    #r.rpush('queue_trabajo', x)    
     time.sleep(1)
