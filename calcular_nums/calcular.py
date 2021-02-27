@@ -28,7 +28,7 @@ time.sleep(3)
 
 i, x = 0, 0
 
-while True: #i <= 100:    
+while True:
     i = r.lpop('queue_entrada')
     if i is None:
         print('se agotaron los elementos')
