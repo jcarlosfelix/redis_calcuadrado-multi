@@ -1,6 +1,4 @@
 # redis_calcuadrado-multi
  Ejercicio de prueba de Docker con Redis, Python básico. Usa una lista de mensajes para cuatro workers.
 
- -Repositorio para un ejercicio de prueba de Docker con Redis. 
- -Calcula cuadrados para enteros que se alimentan infinitamente en una lista de mensajes.
- -Cuatro workers independientes y concurrentes leen los números de la lista para calcular su cuadrado.
+ Calcula cuadrados para enteros que se alimentan infinitamente en una lista de mensajes. Cuatro workers independientes y concurrentes leen los números de la lista para calcular su cuadrado.
